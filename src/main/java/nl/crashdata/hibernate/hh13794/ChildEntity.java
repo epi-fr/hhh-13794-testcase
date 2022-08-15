@@ -4,9 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class DummyEntity
-{
-
+public class ChildEntity extends ParentEntity {
     private Long id;
 
     public void setId(Long id) {
